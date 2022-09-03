@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/internal/js/console.js" libraries="{jquery-3.2.1.slim}" />
+    <file url="file://$PROJECT_DIR$/internal/js/main.js" libraries="{jquery-3.2.1.slim}" />
+    <file url="file://$PROJECT_DIR$/internal/js/parent.js" libraries="{jquery-3.2.1.slim}" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tyler Crowe | Developer</title>
+
+    <link href="external/css/bootstrap.min.css" rel="stylesheet">
+    <link href="internal/css/parent.css" rel="stylesheet"/>
+    <link href="internal/css/console.css" rel="stylesheet"/>
+</head>
+<body class="mx-auto">
+<div class="mx-auto">
+    <div class="d-sm-inline-flex">
+        <h2 class="console-title">>tycrowe</h2>
+        <canvas class="cursor-blink" data-color="lime" width="16" height="16"></canvas>
+    </div>
+    <div>
+        <span class="console-subtitle">Looking for a website? Click here: <a class='command' data-command='goto main' data-console='index-console-input' href="internal/pages/main.html">/goto main</a></span>
+    </div>
+    <div class="console-box">
+        <div class="console console-output border fadeIn" id="index-console-output"></div>
+        <textarea class="console console-input border" id="index-console-input" data-output="index-console-output" autofocus="autofocus" placeholder="/help" maxlength="32"></textarea>
+    </div>
+</div>
+<script src="external/js/jquery-3.6.0.min.js"></script>
+<script src="internal/js/parent.js"></script>
+<script src="internal/js/console.js"></script>
+<script type="text/javascript">
+    buildBlinkingCursors();
+    buildTypedTexts();
+    typeText();
+</script>
+</body>
+</html>

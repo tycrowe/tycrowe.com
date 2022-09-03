@@ -1,0 +1,163 @@
+body,html {
+    background-color: white;
+}
+
+#main-navigation {
+    margin: 25px 0;
+    background-color: white;
+}
+
+#main-navigation .nav-item .nav-link {
+    color: #2d2d2d;
+}
+
+#main-navigation .nav-item .nav-link.active {
+    color: white;
+    background-color: #0c4128;
+}
+
+#scroll-screen {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+/*
+    Floating images
+ */
+#scroll-screen img.floating-image {
+    position: absolute;
+    width: 5%;
+}
+
+.parallax-component-img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    cursor: pointer;
+    width: 185px;
+    height: 185px;
+}
+
+.logo:active {
+    transform:scale(0.8);
+    box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.parallax-component {
+    position: relative;
+    padding: 20px 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+.parallax-image {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.virtual-height-10 {
+    height: 10vh;
+}
+
+.virtual-height-20 {
+    height: 20vh;
+}
+
+.virtual-height-25 {
+    height: 35vh;
+}
+
+.virtual-height-40 {
+    height: 40vh;
+}
+
+.virtual-height-50 {
+    height: 50vh;
+}
+
+.virtual-height-60 {
+    height: 60vh;
+}
+
+.virtual-height-70 {
+    height: 70vh;
+}
+
+.virtual-height-80 {
+    height: 80vh;
+}
+
+.virtual-height-90 {
+    height: 90vh;
+}
+
+.virtual-height-100 {
+    height: 100vh;
+}
+
+.parallax-2010 {
+    background-image: url("../img/years/2010.svg");
+}
+
+.parallax-2012 {
+    background-image: url("../img/years/2012.svg");
+}
+
+.parallax-2013 {
+    background-image: url("../img/years/2013.svg");
+}
+
+.parallax-2014 {
+    background-image: url("../img/years/2014.svg");
+}
+
+.parallax-2015 {
+    background-image: url("../img/years/2015.svg");
+}
+
+.parallax-2016 {
+    background-image: url("../img/years/2016.svg");
+}
+
+.parallax-2018 {
+    background-image: url("../img/years/2018.svg");
+}
+
+.parallax-2019 {
+    background-image: url("../img/years/2019.svg");
+}
+
+.parallax-2020 {
+    background-image: url("../img/years/2020.svg");
+}
+
+.parallax-2021 {
+    background-image: url("../img/years/2021.svg");
+}
+
+.parallax-2022 {
+    background-image: url("../img/years/2022.svg");
+}
+
+.parallax-present {
+    background-image: url("../img/years/Present.svg");
+}
+
+.parallax-code {
+    background-image: url("../img/code0.svg");
+}
+
+.parallax-uncc {
+    background-image: url("../img/uncc0.jpeg");
+}
+
+.parallax-component[id^='logo-block-subtitle'] div {
+    font-size: medium;
+}

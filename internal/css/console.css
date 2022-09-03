@@ -1,0 +1,68 @@
+/* CSS for a console-like page */
+
+html {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body {
+    background-color: #181818;
+    margin-top: 25px;
+    width: 75%;
+}
+
+.console-title {
+    color: lime;
+    font-family: SpaceMono-Regular, monospace;
+}
+
+.console-subtitle {
+    color: lime;
+    font-size: 13px;
+    font-family: SpaceMono-Regular, monospace;
+}
+
+.console-title-canvas {
+    margin-left: 3px;
+}
+
+.console-box {
+    margin: 5px 0;
+}
+
+.console-box .console {
+    resize: none;
+    width: 100%;
+    color: lime;
+    font-size: 16px;
+    text-align: start;
+    background-color: #181818;
+    font-family: SpaceMono-Regular, monospace;
+    border: none;
+}
+
+.console-output {
+    overflow-y: hidden;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.console-output img {
+    width: 250px;
+}
+
+a.command {
+    color: red;
+}
+
+a.command:hover {
+    color: white;
+    cursor: default;
+}
+
+.console-input {
+    height: 32px;
+}

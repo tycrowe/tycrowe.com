@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    margin: 25px 0;
+}
+
+.cursor-blink {
+    margin-left: 1px;
+}
+
+.link-to-the-top {
+    color: crimson;
+    text-decoration: underline;
+    cursor: pointer;
+}
